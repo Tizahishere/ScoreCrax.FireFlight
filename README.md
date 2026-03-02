@@ -1,8 +1,18 @@
-# UnionCrax.Direct
+# FireFlight
 <img width="960" height="540" alt="main" src="https://github.com/user-attachments/assets/e6e7050a-3d7a-4f3c-9fb2-e466fd5f017b" />
 
 
 A fast, standalone Electron desktop application for managing and launching games from the UnionCrax platform. Direct downloads with minimal overhead and full control over your gaming library.
+
+I made this fork to fix some bugs and remove silly or unserious things to make user experience better
+Since the Community Is Weird Including the UC Team Being A Bunch Of Gooners. Thats Why I am Making This Fork
+
+## This Fork Removes
+- **The Mascot**: It's just cringe bro i am crine
+- **Funny Texts**: All Easter Eggs Will Be Removed
+
+  We Are Trying To Provide Union Crax's Service Not In A Weird way
+  Also Please don't join their disord they are cornballs and gooners
 
 ![Version](https://img.shields.io/github/v/release/Union-Crax/UnionCrax.Direct?include_prereleases&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
@@ -23,33 +33,6 @@ A fast, standalone Electron desktop application for managing and launching games
 - **OS**: Windows 10 or later (64-bit)
 - **RAM**: 2GB minimum (4GB recommended)
 - **Storage**: 500MB for app, plus space for game downloads
-
-## Installation
-
-### Windows Installation Options
-
-#### Option 1: NSIS Installer (Recommended)
-1. Go to [Releases](https://github.com/Union-Crax/UnionCrax.Direct/releases)
-2. Download `UnionCrax.Direct Setup X.X.X.exe`
-3. Run the installer and choose installation directory
-4. Create desktop/Start Menu shortcuts
-5. Launch UnionCrax.Direct from Start Menu or desktop
-
-**Features**: Auto-uninstaller, Start Menu integration, customizable install location
-
-#### Option 2: Portable Executable
-1. Go to [Releases](https://github.com/Union-Crax/UnionCrax.Direct/releases)
-2. Download `UnionCrax.Direct X.X.X.exe`
-3. Run directly - no installation needed
-4. Settings and data are stored alongside the executable
-
-**Features**: No installation, run from USB drives, easily movable
-
-#### Option 3: ZIP Archive
-1. Go to [Releases](https://github.com/Union-Crax/UnionCrax.Direct/releases)
-2. Download `UnionCrax.Direct-X.X.X-win.zip`
-3. Extract to your preferred location
-4. Run `UnionCrax.Direct.exe` from the extracted folder
 
 **Features**: Full control over installation location, easy manual updates
 
@@ -80,7 +63,7 @@ This installs the AppImage to `~/.local/share/UnionCrax.Direct` and adds a launc
 ### Managing Downloads
 1. Go to **Activity**
 2. View active, completed, and failed downloads
-3. Pause/resume/cancel downloads as needed (currenlty the host **rootz** does not support download resume)
+3. Pause/resume/cancel downloads as needed (Currently the host **rootz** does not support download resume)
 
 ### Settings
 1. Click **Settings** (gear icon)
@@ -88,75 +71,6 @@ This installs the AppImage to `~/.local/share/UnionCrax.Direct` and adds a launc
 3. View storage usage
 4. Check for updates
 
-## Updates
-
-UnionCrax.Direct lets you check for updates and opens the latest Releases page in your browser to download the newest installer.
-
-Manual check: Settings → **Check for Updates** (opens Releases page)
-
-## Configuration
-
-### Custom Download Location
-
-Use **Settings** → **Download Location** in the app to choose where games are installed.
-
-## Uninstall
-
-### Windows
-To uninstall UnionCrax.Direct from Windows:
-
-1. Open **Settings** → **Apps** → **Installed apps** (or **Control Panel** → **Programs and Features**)
-2. Search for **UnionCrax.Direct**
-3. Click **Uninstall** and follow the prompts
-4. The application and shortcuts will be completely removed
-
-Alternatively, if you installed the portable or ZIP version, simply delete the executable or folder.
-
-### Linux
-To uninstall UnionCrax.Direct from Linux:
-
-1. Run the installer again:
-   ```bash
-   curl -sSL https://union-crax.xyz/linux-installer.sh | bash
-   ```
-2. Select **Uninstall** when prompted
-3. The application and desktop entry will be completely removed
-
-## Troubleshooting
-
-### Linux: App icon not showing
-If the app icon doesn't appear correctly on desktop shortcuts or in the application itself:
-
-1. **Reinstall the application** to update the desktop entry and cache:
-   ```bash
-   curl -sSL https://union-crax.xyz/linux-installer.sh | bash
-   ```
-2. Select **Reinstall** when prompted
-3. Restart your desktop environment or log out and log back in
-4. The icon should now display correctly
-
-### App won't start
-- Verify Windows 10+ (64-bit)
-- Reinstall the latest version
-- Check Windows Defender isn't blocking it
-
-### Downloads fail
-- Check internet connection
-- Verify sufficient disk space
-- Check [UnionCrax Status](https://status.union-crax.xyz)
-
-### Game won't launch
-- Ensure all files are fully extracted
-- Try setting the executable manually in game details
-- Check game-specific requirements
-
-### Still having issues?
-- [Report an Issue](https://github.com/Union-Crax/UnionCrax.Direct/issues)
-- [Join Discord](https://union-crax.xyz/discord)
-
-## Development
-
-Want to contribute? See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions and development guidelines.
 
 ### Quick Start (Developers)
 
